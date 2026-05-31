@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+.box-format{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-red{
+    width: 10vw;
+    height: 10vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 87, 87);
+    font-size: larger;
+}
+
+.box-green{
+    width: 10vw;
+    height: 10vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(79, 167, 35);
+    font-size: larger;
+}
+
+.box-yellow{
+    width: 10vw;
+    height: 10vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 255, 87);
+    font-size: larger;
+}
+
+p {
+    color: white;
+}
+
+.alignment{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    background-color: rgb(78, 78, 78);
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    width: 60vw;
+    height: 10vh;
+     font-size: x-large;
+     display: flex;
+     justify-content: flex-end;
+     align-items: end;
+     text-align: right;
+}
+
+#button-color{
+    background-color: rgb(238, 255, 87);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
