@@ -73,7 +73,18 @@ p {
 
 #button-color{
     background-color: rgb(238, 255, 87);
+    font-size: x-large;
+    
+}
+
+.button-align{
     display: flex;
-    align-items: flex-end;
     justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 24%;
+    height: 24%;
+    
 }
